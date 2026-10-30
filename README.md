@@ -1,6 +1,12 @@
 
 # SmartShop AI — Product Recommendation Agent
 
+[![Live demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://smartshop-appuct-recommendation-ai-agent-cerab3ch3awgrkt9eze8r.streamlit.app/)
+
+**Live demo:** https://smartshop-appuct-recommendation-ai-agent-cerab3ch3awgrkt9eze8r.streamlit.app/
+
+![SmartShop AI screenshot](docs/screenshot.png)
+
 An interactive product recommendation application built with
 Python and Streamlit.
 

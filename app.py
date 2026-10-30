@@ -125,6 +125,13 @@ CUSTOM_CSS = """
 }
 .block-container { padding-top: 2rem; max-width: 1200px; }
 #MainMenu, footer { visibility: hidden; }
+/* Hide the top-right toolbar (Share, star, GitHub, edit, menu) but keep
+   the sidebar expand control usable. */
+[data-testid="stToolbarActions"],
+[data-testid="stAppDeployButton"],
+[data-testid="stMainMenu"],
+[data-testid="stDecoration"] { display: none !important; }
+header[data-testid="stHeader"] { background: transparent; }
 
 .hero {
     background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 55%, #db2777 100%);

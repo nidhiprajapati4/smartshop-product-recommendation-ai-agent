@@ -10,6 +10,8 @@ Python and Streamlit.
 - Explainable product ranking
 - Recommendation comparison table
 - Transparent heuristic scoring
+- Polished UI: gradient hero, quick-search chips, live stats,
+  ranked product cards, and a custom Streamlit theme
 
 ## How it works
 Products are filtered by user constraints and ranked using

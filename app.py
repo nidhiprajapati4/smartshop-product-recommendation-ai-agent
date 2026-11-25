@@ -61,7 +61,113 @@ PRODUCTS = [
      "description": "Compact earbuds for workouts and commuting.",
      "pros": "Portable, suited to active use"},
 ]
-
+PRODUCTS.extend([
+    {"name": "boAt Rockerz 450", "category": "Headphones",
+     "price": 1499, "rating": 4.1,
+     "features": ["wireless", "bluetooth", "bass", "music", "travel", "on-ear"],
+     "description": "On-ear Bluetooth headphones with 40mm drivers and up to 15 hours of playback.",
+     "pros": "Budget-friendly, punchy bass, long battery"},
+    {"name": "Noise Cancelling ANC Headphones X1", "category": "Headphones",
+     "price": 5999, "rating": 4.5,
+     "features": ["wireless", "noise cancellation", "anc", "travel", "music", "calls"],
+     "description": "Over-ear ANC headphones with 30-hour battery and a foldable design.",
+     "pros": "Active noise cancellation, long battery, foldable"},
+    {"name": "Sony WH-CH520", "category": "Headphones",
+     "price": 4490, "rating": 4.4,
+     "features": ["wireless", "bluetooth", "lightweight", "calls", "music", "microphone"],
+     "description": "Lightweight wireless headphones with up to 50 hours of battery life.",
+     "pros": "Very long battery, lightweight, clear calls"},
+    {"name": "JBL Tune 760NC", "category": "Headphones",
+     "price": 6999, "rating": 4.4,
+     "features": ["wireless", "noise cancellation", "bass", "travel", "music"],
+     "description": "Over-ear wireless headphones with active noise cancelling and JBL Pure Bass.",
+     "pros": "ANC at a mid price, strong bass, foldable"},
+    {"name": "realme Buds T300", "category": "Headphones",
+     "price": 2299, "rating": 4.3,
+     "features": ["wireless", "earbuds", "noise cancellation", "portable", "music", "calls"],
+     "description": "True wireless earbuds with 30dB hybrid noise cancellation and 40-hour total battery.",
+     "pros": "Affordable ANC earbuds, long total battery"},
+    {"name": "Noise Buds VS104", "category": "Headphones",
+     "price": 999, "rating": 4.0,
+     "features": ["wireless", "earbuds", "portable", "music", "fitness", "calls"],
+     "description": "Entry-level true wireless earbuds with quad-mic call clarity.",
+     "pros": "Very low cost, light, decent calls"},
+    {"name": "OnePlus Nord Buds 3", "category": "Headphones",
+     "price": 2499, "rating": 4.4,
+     "features": ["wireless", "earbuds", "bass", "calls", "music", "travel"],
+     "description": "Earbuds with 12.4mm drivers, 32dB ANC and fast charging.",
+     "pros": "Good sound for the price, ANC, fast charging"},
+    {"name": "Sennheiser CX Plus", "category": "Headphones",
+     "price": 8990, "rating": 4.6,
+     "features": ["wireless", "earbuds", "noise cancellation", "music", "travel", "calls"],
+     "description": "Premium earbuds with active noise cancellation and balanced sound signature.",
+     "pros": "Premium sound quality, reliable ANC"},
+    {"name": "Jabra Evolve2 30 SE", "category": "Headphones",
+     "price": 9499, "rating": 4.5,
+     "features": ["wired", "microphone", "office", "calls", "work", "meetings"],
+     "description": "Professional wired headset with noise-isolating mic for office and remote work.",
+     "pros": "Excellent mic, all-day comfort, built for meetings"},
+    {"name": "Logitech H390 USB Headset", "category": "Headphones",
+     "price": 2795, "rating": 4.3,
+     "features": ["wired", "microphone", "study", "office", "calls", "meetings"],
+     "description": "USB headset with noise-cancelling mic, suited to online classes and calls.",
+     "pros": "Plug-and-play, clear mic, durable"},
+    {"name": "Logitech MX Keys Mini", "category": "Accessories",
+     "price": 8995, "rating": 4.7,
+     "features": ["office", "typing", "wireless", "productivity", "keyboard", "backlit"],
+     "description": "Compact wireless keyboard with backlit keys and multi-device pairing.",
+     "pros": "Great typing feel, backlit, multi-device"},
+    {"name": "Logitech K380 Multi-Device Keyboard", "category": "Accessories",
+     "price": 2995, "rating": 4.5,
+     "features": ["office", "typing", "wireless", "keyboard", "portable", "productivity"],
+     "description": "Slim Bluetooth keyboard that pairs with up to three devices.",
+     "pros": "Portable, quiet keys, switches between devices"},
+    {"name": "Logitech M331 Silent Mouse", "category": "Accessories",
+     "price": 1295, "rating": 4.4,
+     "features": ["office", "wireless", "mouse", "productivity", "silent"],
+     "description": "Wireless mouse with silent clicks and a 24-month battery life.",
+     "pros": "Silent clicks, long battery, comfortable"},
+    {"name": "Dell S2425H 24-inch Monitor", "category": "Accessories",
+     "price": 8999, "rating": 4.4,
+     "features": ["office", "productivity", "display", "work", "monitor", "full hd"],
+     "description": "24-inch Full HD IPS monitor with 100Hz refresh rate and built-in speakers.",
+     "pros": "Sharp IPS panel, smooth 100Hz, good value"},
+    {"name": "Mi 20000mAh Power Bank 3i", "category": "Accessories",
+     "price": 1999, "rating": 4.3,
+     "features": ["travel", "portable", "battery", "charging", "fast charging"],
+     "description": "20000mAh power bank with 18W fast charging and triple output.",
+     "pros": "High capacity, fast charging, charges multiple devices"},
+    {"name": "Ambrane 10000mAh Slim Power Bank", "category": "Accessories",
+     "price": 1099, "rating": 4.1,
+     "features": ["travel", "portable", "battery", "charging", "slim"],
+     "description": "Pocket-size 10000mAh power bank with 20W output.",
+     "pros": "Pocket-friendly, low cost, quick top-ups"},
+    {"name": "Anker 65W GaN Charger", "category": "Accessories",
+     "price": 3499, "rating": 4.6,
+     "features": ["travel", "portable", "charging", "fast charging", "laptop", "office"],
+     "description": "Compact 65W GaN wall charger that can power a laptop and phone together.",
+     "pros": "Small and powerful, laptop-capable, travel-ready"},
+    {"name": "Amazfit Bip 5", "category": "Wearables",
+     "price": 5999, "rating": 4.2,
+     "features": ["fitness", "health tracking", "travel", "wireless", "gps", "smartwatch"],
+     "description": "Smartwatch with built-in GPS, SpO2 and heart-rate monitoring, up to 10 days of battery.",
+     "pros": "Built-in GPS, long battery, large display"},
+    {"name": "Noise ColorFit Pro 4", "category": "Wearables",
+     "price": 3299, "rating": 4.2,
+     "features": ["fitness", "health tracking", "calls", "wireless", "smartwatch"],
+     "description": "Smartwatch with Bluetooth calling, AMOLED display and sleep tracking.",
+     "pros": "AMOLED screen, calling support, wide sports modes"},
+    {"name": "boAt Wave Call 2", "category": "Wearables",
+     "price": 1999, "rating": 4.0,
+     "features": ["fitness", "health tracking", "calls", "wireless", "smartwatch", "budget"],
+     "description": "Budget smartwatch with Bluetooth calling and 100+ sports modes.",
+     "pros": "Low price, calling support, everyday tracking"},
+    {"name": "Xiaomi Smart Band 8", "category": "Wearables",
+     "price": 2999, "rating": 4.5,
+     "features": ["fitness", "health tracking", "sleep", "wireless", "lightweight", "travel"],
+     "description": "Fitness band with 1.62-inch AMOLED display and up to 16 days of battery.",
+     "pros": "Excellent battery, lightweight, accurate basic tracking"},
+])
 
 def recommend_products(query, budget, category, min_rating, top_n=3):
     query_words = set(re.findall(r"[a-z]+", query.lower()))
@@ -253,6 +359,29 @@ section[data-testid="stSidebar"] h2 { font-size: 1.1rem; }
     .stat-row, .step-grid { grid-template-columns: repeat(2, 1fr); }
     .hero h1 { font-size: 2rem; }
 }
+/* Pull the whole page up */
+.block-container { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+
+/* Compact hero card: adjust the selector to match your hero's class name */
+.hero, .hero-card {
+    padding: 20px 28px !important;
+    margin-bottom: 12px !important;
+    border-radius: 18px !important;
+}
+.hero h1, .hero-card h1 {
+    font-size: 1.9rem !important;
+    line-height: 1.15 !important;
+    margin: 6px 0 6px 0 !important;
+}
+.hero p, .hero-card p {
+    font-size: 0.95rem !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+}
+.hero .badge, .hero-card .badge { font-size: 0.75rem !important; padding: 3px 10px !important; }
+
+/* Tighten the gap above "What are you shopping for?" */
+h3 { margin-top: 0.5rem !important; padding-top: 0.25rem !important; }
 </style>
 """
 
